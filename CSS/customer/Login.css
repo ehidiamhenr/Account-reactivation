@@ -2,9 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background: #f2f6e9;
-    position: relative;
   }
-
   /*--- navigation bar ---*/
   .navbar {
     background-color: lightgrey;
@@ -35,12 +33,8 @@ body {
   
   .page-footer{
     background-color: gray;
-    position: absolute;
-    right: 0;   
-    left: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    min-height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;   
   }
 
    .sub-footer{
@@ -56,7 +50,7 @@ body {
   .span{
     float: right;
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around; 
   }
 
   div span{
