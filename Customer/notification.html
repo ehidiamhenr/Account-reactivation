@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/customer//Login.css">
+    <link rel="stylesheet" href="../CSS/customer/notification.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-sm">
@@ -32,35 +32,30 @@
             </ul>
         </div> 
     </nav><br>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h5>Login </h5>
-          <p>Enter your details.</p>
-        </div> 
-      </div> 
-        <div class="row">
-        <div class="col-sm-3">
-        <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Username or email">
+    <div class="container">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCentered">
+             Launch centered demo modal
+        </button>  
+  
+        <!-- Modal -->
+        <div class="modal" id="ModalCentered" tabindex="-1" role="dialog" aria-labelledby="ModalCenteredLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="ModalCenteredLabel">Successful!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    Your request is received and you will receive a status update of your account within 24hrs.
+                </div>
+                </div>
             </div>
-            <div class="form-group">
-              <input type="text" class="form-control"  placeholder="Password">
-              <P class="text-muted">Minimum of 8 characters. Alpha-numeric and must contain special character</P>
-            </div>
-        </form> 
-        </div>          
         </div>
-      <br>
-      <div class="row">
-          <div class="col">
-            <a class="btn btn-danger btn-lg" href="accounttype.html" role="button">Login</a>
-            <a class="stretched-link" href="#">Forget Password?</a>
-          </div>
-      </div>
-    </div><br><br>
-    <footer class="page-footer">
+    </div>
+    <footer class="footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-3">
@@ -85,7 +80,7 @@
             <h6 class="font-weight-bold">About Us</h6>
               <span>Who we are</span><br>
               <span>Awards</span><br>
-              <span>Boards of Directors</span><br>
+              <span>Board of Directors</span><br>
               <span>Executive Management</span><br>
               <span>Our Policy</span><br>
               <span>Shareholders</span><br>

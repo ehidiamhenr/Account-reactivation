@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/customer//Login.css">
+    <link rel="stylesheet" href="../CSS/customer/profile.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-sm">
@@ -33,34 +33,39 @@
         </div> 
     </nav><br>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h5>Login </h5>
-          <p>Enter your details.</p>
-        </div> 
-      </div> 
-        <div class="row">
+    <form>
+      <div class="form-group row">
+        <label for="inputaccountnumber" class="col-sm-2">Account number</label>
         <div class="col-sm-3">
-        <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Username or email">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control"  placeholder="Password">
-              <P class="text-muted">Minimum of 8 characters. Alpha-numeric and must contain special character</P>
-            </div>
-        </form> 
-        </div>          
+          <input type="text" class="form-control" id="inputaccountnumber">
         </div>
-      <br>
-      <div class="row">
-          <div class="col">
-            <a class="btn btn-danger btn-lg" href="accounttype.html" role="button">Login</a>
-            <a class="stretched-link" href="#">Forget Password?</a>
-          </div>
       </div>
+      <div class="form-group row">
+        <label for="inputphonenumber" class="col-sm-2">Phone number</label>
+        <div class="col-sm-3">
+          <input type="tel" class="form-control" id="inputphonenumber">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputBVN" class="col-md-2">BVN</label>
+        <div class="col-sm-3">
+          <input type="text" class="form-control" id="inputBVN">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputemail" class="col-md-2">Email</label>
+        <div class="col-sm-3">
+          <input type="email" class="form-control" id="inputemail">
+        </div>
+      </div>
+      <div class="custom-file">
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        <p class="text-muted">Attach valid ID and Utility bill within the last 6 months.</p> 
+      </div>
+        <a class="btn btn-danger rounded" href="notification.html" role="button" data-toggle="modal" data-target="#modalcentered">Submit</a>
+    </form>
     </div><br><br>
-    <footer class="page-footer">
+    <footer class="footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-3">
@@ -85,7 +90,7 @@
             <h6 class="font-weight-bold">About Us</h6>
               <span>Who we are</span><br>
               <span>Awards</span><br>
-              <span>Boards of Directors</span><br>
+              <span>Board of Directors</span><br>
               <span>Executive Management</span><br>
               <span>Our Policy</span><br>
               <span>Shareholders</span><br>

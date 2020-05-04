@@ -29,14 +29,31 @@ body {
   .navbar-collapse {
     justify-content: flex-end;
   }
+ .btn{
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 15px;
+    justify-content: center;
+    cursor: pointer;
+ }
+
+ .btn:hover{
+    background-color: firebrick;
+    color: white;
+ }
+ .commit-button{
+    float: right;
+ }
+  
   .footer{
-    bottom: 0;
-    margin: auto;
-    width: 100%;
-    position: fixed;
-    height: 300px;
-    background: gray;
-    border-top: 12px solid gray; 
+    background-color: gray;
+    position: relative;
+    right: 0;   
+    left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 100%;
   }
 
    .sub-footer{
