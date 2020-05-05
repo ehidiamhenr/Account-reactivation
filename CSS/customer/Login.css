@@ -2,6 +2,12 @@ body {
     padding: 0;
     margin: 0;
     background: #f2f6e9;
+    background-image: url('../../images/Screenshot_2020-04-30-15-47-08-92.png');
+    background-size: cover;
+    background-position: center;  
+    position: relative;
+    height: 700px;
+    
   }
   /*--- navigation bar ---*/
   .navbar {
@@ -40,10 +46,14 @@ body {
     padding: 0px;
   }
   
-  .page-footer{
+  .footer{
     background-color: gray;
+    position: relative;
+    right: 0;
+    left: 0;
     padding-top: 30px;
-    padding-bottom: 30px;   
+    padding-bottom: 30px;
+
   }
 
    .sub-footer{
