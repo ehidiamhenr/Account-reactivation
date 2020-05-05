@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACCOUNT REACTIVATION</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/customer/profile.css">
 </head>
+
 <body>
     <div class="overlay"></div>
     <nav class="navbar navbar-expand-sm">
@@ -25,115 +26,143 @@
                     <a class="nav-link" href="#">Customer</a>
                 </li>
                 <li class="nav-item">
-                 <a class="nav-link" href="#">CEMP</a>
+                    <a class="nav-link" href="#">CEMP</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Service Manager</a>
+                    <a class="nav-link" href="#">Service Manager</a>
                 </li>
             </ul>
-        </div> 
-    </nav><br>
+        </div>
+    </nav>
+    <br>
     <div class="container-fluid">
-    <form>
-      <div class="form-group row">
-        <label for="inputaccountnumber" class="col-sm-2">Account number</label>
-        <div class="col-sm-3">
-          <input type="text" class="form-control" id="inputaccountnumber">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="inputphonenumber" class="col-sm-2">Phone number</label>
-        <div class="col-sm-3">
-          <input type="tel" class="form-control" id="inputphonenumber">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="inputBVN" class="col-md-2">BVN</label>
-        <div class="col-sm-3">
-          <input type="text" class="form-control" id="inputBVN">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="inputemail" class="col-md-2">Email</label>
-        <div class="col-sm-3">
-          <input type="email" class="form-control" id="inputemail">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="inputregnumber" class="col-md-2">Reg. number</label>
-        <div class="col-sm-3">
-          <input type="text" class="form-control" id="inputregnumber">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="inputtin" class="col-md-2">TIN</label>
-        <div class="col-sm-3">
-          <input type="text" class="form-control" id="inputtin">
-        </div>
-      </div>
-      <div class="custom-file">
-        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-        <p class="text-muted">Attach valid ID and Utility bill within the last 6 months.</p> 
-      </div><br>
-        <a class="btn btn-danger rounded" href="notification.html" role="button">Submit</a>
-    </form>
-    </div><br><br>
+        <form>
+            <div class="form-group row">
+                <label for="inputaccountnumber" class="col-sm-2">Account number</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputaccountnumber">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputphonenumber" class="col-sm-2">Phone number</label>
+                <div class="col-sm-3">
+                    <input type="tel" class="form-control" id="inputphonenumber">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputBVN" class="col-md-2">BVN</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputBVN">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputemail" class="col-md-2">Email</label>
+                <div class="col-sm-3">
+                    <input type="email" class="form-control" id="inputemail">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputregnumber" class="col-md-2">Reg. number</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputregnumber">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputtin" class="col-md-2">TIN</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputtin">
+                </div>
+            </div>
+            <div class="custom-file">
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                <p class="text-muted">Attach valid ID and Utility bill within the last 6 months.</p>
+            </div>
+            <br>
+            <a class="btn btn-danger rounded" href="notification.html" role="button">Submit</a>
+        </form>
+    </div>
+    <br>
+    <br>
     <footer class="footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-3">
-            <h6 class="font-weight-bold fo">Personal Banking</h6>
-            <span>Savings</span><br>
-            <span>Current</span><br>
-            <span>Investment</span><br>
-            <span>Loans</span><br>
-            <span>Cards</span><br>
-            <span>E-Channels</span>
-          </div>
-          <div class="col-sm-3">
-            <h6 class="font-weight-bold">Business Banking</h6>
-            <span>Corporate</span><br>
-            <span>SME</span><br>
-            <span>Services</span><br>
-            <span>Payments</span><br>
-            <span>Loans</span><br>
-            <span>H.E.A.R.T</span>
-          </div>
-          <div class="col-sm-3">
-            <h6 class="font-weight-bold">About Us</h6>
-              <span>Who we are</span><br>
-              <span>Awards</span><br>
-              <span>Board of Directors</span><br>
-              <span>Executive Management</span><br>
-              <span>Our Policy</span><br>
-              <span>Shareholders</span><br>
-              <span>Careers</span><br>            
-          </div>
-          <div class="col-sm-3">
-            <h6 class="font-weight-bold">Help & Support</h6>
-              <span>Feedback</span><br>
-              <span>Contact us</span><br>
-              <span>Whistle Blower</span><br>
-              <span>ATM Locator</span><br>
-              <span>Failed Transaction</span><br>
-              <span>Forex Report</span><br>            
-          </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h6 class="font-weight-bold fo">Personal Banking</h6>
+                    <span>Savings</span>
+                    <br>
+                    <span>Current</span>
+                    <br>
+                    <span>Investment</span>
+                    <br>
+                    <span>Loans</span>
+                    <br>
+                    <span>Cards</span>
+                    <br>
+                    <span>E-Channels</span>
+                </div>
+                <div class="col-sm-3">
+                    <h6 class="font-weight-bold">Business Banking</h6>
+                    <span>Corporate</span>
+                    <br>
+                    <span>SME</span>
+                    <br>
+                    <span>Services</span>
+                    <br>
+                    <span>Payments</span>
+                    <br>
+                    <span>Loans</span>
+                    <br>
+                    <span>H.E.A.R.T</span>
+                </div>
+                <div class="col-sm-3">
+                    <h6 class="font-weight-bold">About Us</h6>
+                    <span>Who we are</span>
+                    <br>
+                    <span>Awards</span>
+                    <br>
+                    <span>Board of Directors</span>
+                    <br>
+                    <span>Executive Management</span>
+                    <br>
+                    <span>Our Policy</span>
+                    <br>
+                    <span>Shareholders</span>
+                    <br>
+                    <span>Careers</span>
+                    <br>
+                </div>
+                <div class="col-sm-3">
+                    <h6 class="font-weight-bold">Help & Support</h6>
+                    <span>Feedback</span>
+                    <br>
+                    <span>Contact us</span>
+                    <br>
+                    <span>Whistle Blower</span>
+                    <br>
+                    <span>ATM Locator</span>
+                    <br>
+                    <span>Failed Transaction</span>
+                    <br>
+                    <span>Forex Report</span>
+                    <br>
+                </div>
+            </div>
+            <div class="row sub-footer">
+                <div class="col-sm-12">
+                    <i class="fa fa-copyright"></i>
+                    <span>2020 Sterling Bank. All Right Reserved</span>
+                    <div class="span">
+                        <span>Private Policy</span>
+                        <span>Terms and Conditions</span>
+                        <span>CBN Consumer Protection Regulations</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row sub-footer">
-          <div class="col-sm-12">
-            <i class="fa fa-copyright"></i>
-              <span>2020 Sterling Bank. All Right Reserved</span> 
-              <div class="span">
-              <span>Private Policy</span>
-              <span>Terms and Conditions</span>
-              <span>CBN Consumer Protection Regulations</span>
-              </div>
-          </div>
-        </div>
-      </div>
-    </footer> 
+    </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>

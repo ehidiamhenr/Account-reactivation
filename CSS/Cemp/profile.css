@@ -3,6 +3,7 @@ body {
     margin: 0;
     background: #f2f6e9;
     position: relative;
+    
   }
 
   /*--- navigation bar ---*/
@@ -42,6 +43,7 @@ body {
     background-color: maroon;
     color: white;
  }
+ 
  .commit-button{
     float: right;
  }

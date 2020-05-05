@@ -33,9 +33,6 @@ body {
 .navbar-collapse {
   justify-content: flex-end;
 }
-.container{
-  text-align: center;
-}
 
 .description {
   left: 50%;
@@ -51,6 +48,9 @@ body {
   color: white;
   font-size: 1.3rem;
   line-height: 1.5;
+}
+.link{
+  color: white;
 }
 .overlay {
   position: absolute;
