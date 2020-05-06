@@ -2,6 +2,19 @@ body {
     padding: 0;
     margin: 0;
     background: #f2f6e9;
+    background-image: url('../../images/photo-1525915818695-5b1a033247f1.jpg');
+    background-size: cover;
+    background-position: center;  
+    position: relative;
+    height: 700px;
+  }
+  .overlay {
+    position: absolute;
+    min-height: 94%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.1);
   }
   /*--- navigation bar ---*/
   .navbar {
