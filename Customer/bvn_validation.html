@@ -7,64 +7,63 @@
     <title>ACCOUNT REACTIVATION</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../CSS/customer/registration.css">
 </head>
 
 <body>
     <div class="overlay"></div>
-    <nav class="navbar navbar-expand-sm">
-        <a class="navbar-brand" href="#"><img src="images/Sterling-Logo_.svg" class="img"></a>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#"><img src="../Images/Sterling-Logo_.svg" class="img"></a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="Index.html">Home</a>
+                    <a class="nav-link" href="../Index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="customer/customer-type.html">Customer</a>
-                </li> 
-                <li class="nav-item">
-                    <a class="nav-link" href="Cemp/Login.html">CEMP</a>
+                    <a class="nav-link" href="#">Customer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="service_manager/Login.html">Service Manager</a>
+                    <a class="nav-link" href="#">CEMP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Service Manager</a>
                 </li>
             </ul>
         </div>
     </nav>
     <br>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="description">
-                <h1>Welcome Back, We Missed you!</h1>
-                <p>Kindly login or Sign up if this is your first time on this platform and proceed to reactivate your account and enjoy loads of benefit packaged just for you as our ONE CUSTOMER.</p>
+            <div class="col-md-5">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="BVN">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Date of Birth">
+                        <small class="text" style="color: white;"><span style="color: red;">Tip:</span>Forgot your BVN? Dial *565*0# from your registered mobile number to retrieve it.</small>
+                    </div>
+                </form>
             </div>
         </div>
         <br>
-            <div class="row">
-              <div class="col">
-                <a class="btn btn-danger" href="Customer/Login.html" role="button">Login</a>
-                <a class="link" href="#">Forget Password?</a>
-              </div>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-5">
+                <a class="btn btn-dark btn-lg" href="registration.html" role="button">Validate BVN</a>
             </div>
-            <br>
-            <div class="row">
-              <dic class="col">
-                <a class="btn btn-danger btn-lg" href="Customer/bvn_validation.html" role="button">Sign up</a> 
-              </div>  
-              <p style="color: white;">Click sign up if you are a first time user.</p>           
-            </div>
-             
-            
+        </div>
     </div>
     <br>
-    <br>
-    <footer class="footer">
+    <footer class="page-footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <h6 class="font-weight-bold fo">Personal Banking</h6>
                     <span>Savings</span>
                     <br>
@@ -78,7 +77,7 @@
                     <br>
                     <span>E-Channels</span>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <h6 class="font-weight-bold">Business Banking</h6>
                     <span>Corporate</span>
                     <br>
@@ -92,13 +91,13 @@
                     <br>
                     <span>H.E.A.R.T</span>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <h6 class="font-weight-bold">About Us</h6>
                     <span>Who we are</span>
                     <br>
                     <span>Awards</span>
                     <br>
-                    <span>Board of Directors</span>
+                    <span>Boards of Directors</span>
                     <br>
                     <span>Executive Management</span>
                     <br>
@@ -109,7 +108,7 @@
                     <span>Careers</span>
                     <br>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <h6 class="font-weight-bold">Help & Support</h6>
                     <span>Feedback</span>
                     <br>
@@ -126,7 +125,7 @@
                 </div>
             </div>
             <div class="row sub-footer">
-                <div class="col-sm-12">
+                <div class="col-md-12">
                     <i class="fa fa-copyright"></i>
                     <span>2020 Sterling Bank. All Right Reserved</span>
                     <div class="span">
